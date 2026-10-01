@@ -5,7 +5,9 @@ name: Build and Test the App
 
 on:
   push:
-    branches: [ "main" ]
+    branches:
+    - main
+    - develop
   pull_request:
     branches: [ "main" ]
 
