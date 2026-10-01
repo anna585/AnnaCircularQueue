@@ -6,8 +6,8 @@ name: Build and Test the App
 on:
   push:
     branches:
-      - main
-      - develop
+    - main
+    - develop
   pull_request:
     branches: [ "main" ]
 
